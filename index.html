@@ -7,7 +7,32 @@
   <title>Project Library</title>
 </head>
 <body>
-  <h1>Project Library</h1>
   <!-- Don't forget to connect the JavaScript file -->
+  <h1 id="listOfClassics">Classic books</h1>
+
+  <p>
+    <label for="genre">Genre</label>
+    <!--Select is the drop-down menu-->
+    <select id="genre">
+      <option selected>All</option>
+      <option>Fiction</option>
+      <option>Horror</option>
+      <option>Science Fiction</option>
+      <option>Fantasy</option>
+      <option>Adventure</option>
+      <option>Mystery</option>
+      <option>Dystopian</option>
+    </select>
+  </p>
+  <button id="newestButton">Sort by newest</button>
+  <button id="oldestButton">Sort by oldest</button>
+  <button id="gradeButton">Sort by grade</button>
+<!--anställda exemplet-->
+  <button id="sortButton">Sortera Anställda</button>
+  <ul id="employeeList"></ul>
+  <div id="books"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
